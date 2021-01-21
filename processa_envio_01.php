@@ -70,16 +70,16 @@ try {
     $mail->isSMTP();                                            // Send using SMTP
     $mail->Host       = 'smtp.gmail.com';                    // Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
-    $mail->Username   = 'udemy.cursowebcompleto@gmail.com';                     // SMTP username
-    $mail->Password   = 'Bruno1971@';                               // SMTP password
+    $mail->Username   = 'XXXXXXXXXXX@gmail.com';                     // SMTP username
+    $mail->Password   = 'XXXXXXXXXXX';                               // SMTP password
     $mail->SMTPSecure = 'tls';//PHPMailer::ENCRYPTION_STARTTLS;         // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
     $mail->Port       = 587;                                    // TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
 
     //Recipients
     $mail->setFrom('contato@fernandaemprestimos.com.br', 'Site Fernanda Emprestimos v2.0');
-    $mail->addAddress('daniel.lima.1971@gmail.com', 'Daniel Lima');     // Add a recipient
+    $mail->addAddress('XXXXXXXXXX@gmail.com', 'Daniel Lima');     // Add a recipient
     //$mail->addAddress('fernandamarechal270@outlook.com');               // Name is optional
-    $mail->addReplyTo('fernandamarechal270@outlook.com', 'Reply do Cliente');
+    $mail->addReplyTo('XXXXXXXXXX@outlook.com', 'Reply do Cliente');
     //$mail->addCC('cc@example.com');
     //$mail->addBCC('bcc@example.com');
 
