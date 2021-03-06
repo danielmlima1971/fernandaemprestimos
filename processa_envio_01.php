@@ -90,7 +90,7 @@ try {
     // Content
     $mail->isHTML(true);                                  // Set email format to HTML
     $mail->Subject = 'Novo contato pelo Site';
-    $mail->Body    = 'Nova Mansagem recebida pelo site:' . '<br />' . 'Nome: '. $mensagem->nome . '<br />' . 'Contato: ' . $mensagem->contato . '<br />' . 'Entre em contato com o cliente o mais breve possível';
+    $mail->Body    = 'Nova mensagem recebida pelo site:' . '<br />' . 'Nome: '. $mensagem->nome . '<br />' . 'Contato: ' . $mensagem->contato . '<br />' . 'Entre em contato com o cliente o mais breve possível';
     //$mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
     $mail->send();
